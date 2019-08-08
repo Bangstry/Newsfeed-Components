@@ -1,4 +1,4 @@
-/* This is the data we will be using to create our article components */
+
 /* Look over this data, then proceed to line 91*/
 const data = [
   {
@@ -164,7 +164,7 @@ const articles = document.querySelector('.articles')
         pOne.textContent = firstParagraph;
         pTwo.textContent = secondParagraph;
         pThree.textContent = thirdParagraph;
-        ezSpan.textContent = 'View full article';
+        ezSpan.textContent = 'Expand/Collapse';
 
         ezSpan.addEventListener('click', (e) => {
             console.log('button clicked', e.target)
